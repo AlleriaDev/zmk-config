@@ -3,6 +3,7 @@
  * Hardware: nice!nano v2 with MCP23017 I2C GPIO expander
  */
 
+#include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/i2c/i2c.h>
 
 / {
