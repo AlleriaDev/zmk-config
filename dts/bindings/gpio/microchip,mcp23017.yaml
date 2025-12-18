@@ -1,0 +1,15 @@
+description: Microchip MCP23017 16-bit I2C GPIO expander
+
+compatible: "microchip,mcp23017"
+
+include: [gpio-controller.yaml, i2c-device.yaml]
+
+properties:
+  ngpios:
+    type: int
+    required: true
+    description: Number of GPIOs (16 for MCP23017)
+
+gpio-cells:
+  - pin
+  - flags
