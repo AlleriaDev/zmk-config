@@ -9,7 +9,4 @@ config I2C
 config GPIO
     default y
 
-config GPIO_MCP23017
-    default y
-
 endif
