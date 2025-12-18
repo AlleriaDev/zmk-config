@@ -1,0 +1,15 @@
+if SHIELD_APPLEDESIGN
+
+config ZMK_KEYBOARD_NAME
+    default "AppleDesign"
+
+config I2C
+    default y
+
+config GPIO
+    default y
+
+config GPIO_MCP23017
+    default y
+
+endif
